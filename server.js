@@ -5,7 +5,7 @@
 // Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 // var logger = require("morgan");
 var mongoose = require("mongoose");
 // Requiring our Note and Article models
