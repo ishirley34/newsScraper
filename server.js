@@ -5,7 +5,7 @@
 // Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
-var logger = require("morgan");
+// var logger = require("morgan");
 var mongoose = require("mongoose");
 // Requiring our Note and Article models
 var Note = require("./models/Note.js");
@@ -21,7 +21,7 @@ mongoose.Promise = Promise;
 var app = express();
 
 // Use morgan and body parser with our app
-app.use(logger("dev"));
+// app.use(logger("dev"));
 app.use(bodyParser.urlencoded({
   extended: false
 }));
