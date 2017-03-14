@@ -1,0 +1,101 @@
+2017-03-14T19:57:38.557903+00:00 app[web.1]:     at tryModuleLoad (module.js:446:12)
+2017-03-14T19:57:38.557904+00:00 app[web.1]:     at Function.Module._load (module.js:438:3)
+2017-03-14T19:57:38.566407+00:00 app[web.1]: 
+2017-03-14T19:57:38.580121+00:00 app[web.1]: npm ERR! Linux 3.13.0-112-generic
+2017-03-14T19:57:38.580398+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2017-03-14T19:57:38.580619+00:00 app[web.1]: npm ERR! node v6.10.0
+2017-03-14T19:57:38.580804+00:00 app[web.1]: npm ERR! npm  v3.10.10
+2017-03-14T19:57:38.581154+00:00 app[web.1]: npm ERR! newsscraper@1.0.0 start: `node server.js`
+2017-03-14T19:57:38.580997+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2017-03-14T19:57:38.581348+00:00 app[web.1]: npm ERR! Exit status 1
+2017-03-14T19:57:38.583283+00:00 app[web.1]: npm ERR! 
+2017-03-14T19:57:38.583285+00:00 app[web.1]: npm ERR! Failed at the newsscraper@1.0.0 start script 'node server.js'.
+2017-03-14T19:57:38.583285+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2017-03-14T19:57:38.583286+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the newsscraper package,
+2017-03-14T19:57:38.583286+00:00 app[web.1]: npm ERR! not with npm itself.
+2017-03-14T19:57:38.583287+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2017-03-14T19:57:38.583287+00:00 app[web.1]: npm ERR!     node server.js
+2017-03-14T19:57:38.583287+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2017-03-14T19:57:38.583288+00:00 app[web.1]: npm ERR!     npm bugs newsscraper
+2017-03-14T19:57:38.583288+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2017-03-14T19:57:38.583289+00:00 app[web.1]: npm ERR!     npm owner ls newsscraper
+2017-03-14T19:57:38.583289+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2017-03-14T19:57:38.593458+00:00 app[web.1]: 
+2017-03-14T19:57:38.593460+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2017-03-14T19:57:38.593461+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2017-03-14T19:57:38.701676+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-14T19:57:38.683776+00:00 heroku[web.1]: Process exited with status 1
+2017-03-14T19:58:09.774254+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=morning-coast-91234.herokuapp.com request_id=0c31181c-e4a6-4129-aad6-f7a47990f042 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T19:58:10.162356+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=morning-coast-91234.herokuapp.com request_id=b62e60e2-7536-4aa1-9e4b-c990037ccf3a fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:03:21.000000+00:00 app[api]: Build started by user hazzaa0516@gmail.com
+2017-03-14T20:03:31.628803+00:00 app[api]: Deploy a4b8d74 by user hazzaa0516@gmail.com
+2017-03-14T20:03:31.628803+00:00 app[api]: Release v7 created by user hazzaa0516@gmail.com
+2017-03-14T20:03:31.903554+00:00 heroku[web.1]: State changed from crashed to starting
+2017-03-14T20:03:31.856710+00:00 app[api]: Release v7 created by user hazzaa0516@gmail.com
+2017-03-14T20:03:21.000000+00:00 app[api]: Build succeeded
+2017-03-14T20:03:33.678644+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-03-14T20:03:36.195797+00:00 app[web.1]: 
+2017-03-14T20:03:36.195814+00:00 app[web.1]: > newsscraper@1.0.0 start /app
+2017-03-14T20:03:36.195815+00:00 app[web.1]: > node server.js
+2017-03-14T20:03:36.195815+00:00 app[web.1]: 
+2017-03-14T20:03:37.100369+00:00 app[web.1]: App running on port 3000!
+2017-03-14T20:03:37.356249+00:00 app[web.1]: Mongoose connection successful.
+2017-03-14T20:04:34.022669+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-14T20:04:33.889136+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-03-14T20:04:33.889136+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-03-14T20:04:34.004992+00:00 heroku[web.1]: Process exited with status 137
+2017-03-14T20:04:36.860771+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=morning-coast-91234.herokuapp.com request_id=192bda14-0ab6-4dca-9c93-1c88432ffd95 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:04:37.395250+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=morning-coast-91234.herokuapp.com request_id=ddd2dda5-09d9-4fdb-8ac5-8304cb578cdb fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:05:09.107154+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=morning-coast-91234.herokuapp.com request_id=93f0fd7c-31e0-437a-8814-148f45b4faa0 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:05:09.552139+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=morning-coast-91234.herokuapp.com request_id=26713441-cd9b-4912-b0b0-252202cb3b09 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:08:02.000000+00:00 app[api]: Build started by user hazzaa0516@gmail.com
+2017-03-14T20:08:12.201710+00:00 app[api]: Release v8 created by user hazzaa0516@gmail.com
+2017-03-14T20:08:12.201710+00:00 app[api]: Deploy 05428ff by user hazzaa0516@gmail.com
+2017-03-14T20:08:12.424275+00:00 app[api]: Release v8 created by user hazzaa0516@gmail.com
+2017-03-14T20:08:12.674349+00:00 heroku[web.1]: State changed from crashed to starting
+2017-03-14T20:08:02.000000+00:00 app[api]: Build succeeded
+2017-03-14T20:08:15.174007+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-03-14T20:08:19.094209+00:00 app[web.1]: 
+2017-03-14T20:08:19.094230+00:00 app[web.1]: > newsscraper@1.0.0 start /app
+2017-03-14T20:08:19.094231+00:00 app[web.1]: > node server.js
+2017-03-14T20:08:19.094231+00:00 app[web.1]: 
+2017-03-14T20:08:21.698659+00:00 app[web.1]: App running on port 3000!
+2017-03-14T20:08:22.258266+00:00 app[web.1]: Mongoose connection successful.
+2017-03-14T20:09:15.762691+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-03-14T20:09:15.762800+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-03-14T20:09:15.949285+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-14T20:09:15.950359+00:00 heroku[web.1]: State changed from crashed to starting
+2017-03-14T20:09:15.934703+00:00 heroku[web.1]: Process exited with status 137
+2017-03-14T20:09:18.106244+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-03-14T20:09:22.083531+00:00 app[web.1]: 
+2017-03-14T20:09:22.083549+00:00 app[web.1]: > node server.js
+2017-03-14T20:09:22.083548+00:00 app[web.1]: > newsscraper@1.0.0 start /app
+2017-03-14T20:09:22.083549+00:00 app[web.1]: 
+2017-03-14T20:09:24.755168+00:00 app[web.1]: App running on port 3000!
+2017-03-14T20:09:25.190233+00:00 app[web.1]: Mongoose connection successful.
+2017-03-14T20:09:42.387748+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=morning-coast-91234.herokuapp.com request_id=e04dcfe9-7e2b-401c-ba6e-410ebfe58188 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:10:18.497083+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-03-14T20:10:18.497225+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-03-14T20:10:18.680653+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-14T20:10:18.659609+00:00 heroku[web.1]: Process exited with status 137
+2017-03-14T20:10:21.100341+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=morning-coast-91234.herokuapp.com request_id=992c4217-6dcb-4856-9a0b-4fc769f2cfda fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:10:21.661963+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=morning-coast-91234.herokuapp.com request_id=5da785b3-7709-4586-a49b-e2db14489b09 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:10:23.000000+00:00 app[api]: Build started by user hazzaa0516@gmail.com
+2017-03-14T20:10:33.733115+00:00 app[api]: Deploy fb28d5b by user hazzaa0516@gmail.com
+2017-03-14T20:10:33.733115+00:00 app[api]: Release v9 created by user hazzaa0516@gmail.com
+2017-03-14T20:10:34.075682+00:00 heroku[web.1]: State changed from crashed to starting
+2017-03-14T20:10:34.026554+00:00 app[api]: Release v9 created by user hazzaa0516@gmail.com
+2017-03-14T20:10:23.000000+00:00 app[api]: Build succeeded
+2017-03-14T20:10:36.216397+00:00 heroku[web.1]: Starting process with command `npm start`
+2017-03-14T20:10:39.959438+00:00 app[web.1]: 
+2017-03-14T20:10:39.959456+00:00 app[web.1]: > newsscraper@1.0.0 start /app
+2017-03-14T20:10:39.959457+00:00 app[web.1]: > node server.js
+2017-03-14T20:10:39.959457+00:00 app[web.1]: 
+2017-03-14T20:10:41.373566+00:00 app[web.1]: App running on port 3000!
+2017-03-14T20:10:41.850689+00:00 app[web.1]: Mongoose connection successful.
+2017-03-14T20:11:36.428991+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-03-14T20:11:36.429479+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-03-14T20:11:36.649738+00:00 heroku[web.1]: Process exited with status 137
+2017-03-14T20:11:36.661322+00:00 heroku[web.1]: State changed from starting to crashed
+2017-03-14T20:11:38.731566+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=morning-coast-91234.herokuapp.com request_id=51729fcf-a50d-474d-a7da-1dd2e0fd40c8 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https
+2017-03-14T20:11:39.060191+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=morning-coast-91234.herokuapp.com request_id=22736888-cc63-44e5-aa43-661945a46270 fwd="73.115.8.181" dyno= connect= service= status=503 bytes= protocol=https

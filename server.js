@@ -5,6 +5,7 @@
 // Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
+var PORT = 3000;
 // var logger = require("morgan");
 var mongoose = require("mongoose");
 // Requiring our Note and Article models
@@ -162,6 +163,6 @@ app.post("/articles/:id", function (req, res) {
 
 
 // Listen on port 3000
-app.listen(3000, function () {
-  console.log("App running on port 3000!");
+app.listen(PORT, function () {
+  console.log("App running on port " + PORT + "!");
 });
